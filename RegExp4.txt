@@ -1,0 +1,60 @@
+1) How to make use of previously identified pattern while building other patterns?
+	A) Use \n where n is number starting from 1
+	B) Use !n where n is number starting from 1
+	C) Use |n where n is number starting from 1
+	D) None of Above
+	
+2) Write a pattern to match a word(say 'Hello') followed by #
+	A) Hello($=#)
+	B) Hello(?=#)
+	C) Hello(*=#)
+	D) None
+
+3) Write a pattern to match a word(say 'Hello') not followed by #
+	A) Hello(?!#)
+	B) Hello($!#)
+	C) Hello(*!#)
+	D) None
+	
+4) Write a pattern to match either one of characters(say PR) in text.
+	A) PR
+	B) P^R
+	C) P|R
+	D) P&R
+
+Given a line as follows:
+	line="Hi this is python class 6 given by mlminds"
+5) Substitute # at starting and ending of each word which is having 'y' in it using backreferences.
+	A) re.sub('(\s*)y(\s*)','#\1y\2#',line)
+	B) re.sub('(\w*)y(\w*)','#\1y\2#',line)
+	C) re.sub('(\W*)y(\W*)','#\1y\2#',line)
+	D) None
+	
+6) 	Substitute $ at starting of each number using backreferences.
+	A) re.sub('(\n*)','$\1',line)
+	B) re.sub('(\D*)','$\1',line)
+	C) re.sub(r'(\d+)',r'$\1',line)
+	D) None
+	
+7) How do we name back references ?
+	A) ?P<name>
+	B) ?x<name>
+	C) ?p<name>
+	D) ?X<name>
+	
+8) What is the right flag to ignore spaces in pattern?
+	A) ?(x)
+	B) ?x
+	C) (x?)
+	D) (?x)
+	
+	
+Answers:
+1. A
+2. B
+3. A
+4. C
+5. B
+6. C
+7. A
+8. D

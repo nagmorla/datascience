@@ -1,0 +1,58 @@
+1) How do you write pattern to findout all occurances of a character 'p' which is followed by zero or one 'y'
+	A) py+
+	B) py?
+	C) py*
+	D) py
+	
+2) How do you write pattern to findout all occurances of a character 'p' which is followed by exactly 4 'y' ?
+	A) py{4}
+	B) py{1,4}
+	C) py?{4}
+	D) pyyy
+	
+3)  How do you write pattern to findout all occurances of a character 'p' which is followed by exactly 3 to 7  'y' characters?
+	A) py{7}
+	B) py{3,7}
+	C) py*{7}
+	D) py?{7}
+	
+4) How do you write pattern to findout all characters in a given text which are matched with a set of characters? I.e., write pattern to findout characters x,y,z
+	A) re.findall('xyz',text)
+	B) re.findall('[xyz]',text)
+	C) re.findall('[.*xyz]',text)
+	D) None of Above
+	
+5) How do you exclude certain characters (say ML) in a text?
+	A) re.findall('?ML', text)
+	B) re.findall('*ML', text)
+	C) re.findall('[?ML]', text)
+	D) re.findall('[^ML]', text)
+	
+6) How do you split text in python? I.e., Assume that you have very big line of text, split it with coma
+	A) re.split(",", text)
+	B) re.split("[,]", text)
+	C) re.split(".+", text)
+	D) None of Above
+	
+	
+7) What is the return type for re.findall()
+	A) re.Match
+	B) list
+	C) set
+	D) String
+	
+8) What is the return type for re.finditer()
+	A) re.Match
+	B) list
+	C) Iterator
+	D) String
+		
+Answers:
+1. C
+2. A
+3. B
+4. B
+5. D
+6. A
+7. B
+8. C

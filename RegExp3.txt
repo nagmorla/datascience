@@ -1,0 +1,45 @@
+1) How do we write pattern(expression) to find all individual numbers from 0 to 5 in text?
+	A) [0,5]
+	B) [0-5]
+	C) [0-9]+
+	D) None of Above
+
+2) How do we write pattern to find all number sequences from 0 to 9 in text?
+	A) [0,9]
+	B) [0-9]
+	C) [0-9]+
+	D) None of Above
+
+3) What is escape character(regular expression) for finding individual numeric characters in a text.
+	A) \D
+	B) \d
+	C) \s
+	D) \n
+
+4) What is the escape char(regular expression) for finding numeric sequences in a text.
+	A) \d+
+	B) (\d)+
+	C) [\d+]
+	D) [\d]+
+
+5) What is the escape char(regular expression) for finding non alpha numeric sequences in a text.
+	A) [\W]+
+	B) (\W)+
+	C) [\w+]
+	D) \w+
+
+6) Strings in python are immutables.
+	A) Yes
+	B) No
+
+7) Let us say you have text(one line) as follows "Version 3.7 => This is python version"
+	How do you replace text followed by 3.7 with empty string.
+
+Answers:
+1) B
+2) C
+3) B
+4) D
+5) A
+6) A
+7) re.sub("=>.*$","",line2)

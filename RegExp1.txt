@@ -1,0 +1,68 @@
+1) what module we should import to use regular expressions?
+	A) regex
+	B) re
+	C) expressions
+	D) rexp
+	
+2) What is the right method to findout certain word in the text?
+	A) find()
+	B) search()
+	C) match()
+	D) both search() & match()
+
+3) When you search a pattern in text, what do python really returns?
+	A) Boolean
+	B) Number
+	C) re.Match object
+	D) None of Above
+	
+4) Let us say search() function returned you object called match. What would match.start() and match.end() returns?
+
+5) What is the right method to findout pattern in the text?
+	A) find()
+	B) search()
+	C) match()
+	D) None of Above
+		
+	
+5) Write a program to print number of groups identified with a given regular expression (Using match() function).
+
+6) What symbol we should use for non-greedy expression?
+	A) $
+	B) ?
+	C) &
+	D) Any of Above
+
+7) Let us say match() function made 2 groups out of given text by using your regexp. What happens when you try to access 3 group ?
+
+8) We can perform case insensitive matching by supplying below flags to match() function.
+	1) re.I
+	2) re.IGNORECASE
+	3) re.M
+	4) re.S
+	
+	A) Only 1 is correct
+	B) Both 1 & 2 are correct
+	C) 1, 2 & 4 are correct
+	D) Only 2 is correct
+	
+9)How to find pattern in multiline text?
+	A) Using re.M flag.
+	B) Using re.MULTILINE flag.
+	C) Using re.M or re.MULTILINE flag.
+	D) Using re.X flag.
+	
+10) What are differences between search() and match() functions?
+
+
+Answers:
+1. B
+2. D
+3. C
+4. start() function returns the starting index of the word(position where this word is started in given text), end() returns position/index where this word ends on the given text.
+5. C
+6. B
+7. Python runtime throws "IndexError: no such group"
+8. B
+9. C
+10. re.match attempts to match a pattern at the beginning of the string. re.search attempts to match the pattern throughout the string until it finds a match.
